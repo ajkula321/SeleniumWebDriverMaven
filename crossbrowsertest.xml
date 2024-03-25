@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Open Cart End To End Testing" parallel="tests">
+
+    <test name="Open Cart Edge Test" thread-count="3">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistrationTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Open Cart Chrome Test" thread-count="3">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="testCases.TC_001_AccountRegistrationTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

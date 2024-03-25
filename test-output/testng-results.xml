@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-24T21:33:52 CET" name="Open Cart End To End Testing" finished-at="2024-03-24T21:34:08 CET" duration-ms="15354">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_AccountRegistrationTest.testAccountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@78e117e3]" name="testAccountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_LoginTest.loginTest()[pri:0, instance:testCases.TC_002_LoginTest@460d0a57]" name="loginTest" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountRegistrationTest.testAccountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@78e117e3]" name="testAccountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_LoginTest.loginTest()[pri:0, instance:testCases.TC_002_LoginTest@460d0a57]" name="loginTest" class="testCases.TC_002_LoginTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-24T21:33:52 CET" name="Open Cart" finished-at="2024-03-24T21:34:08 CET" duration-ms="15354">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@78e117e3]" started-at="2024-03-24T21:33:52 CET" name="setup" finished-at="2024-03-24T21:33:58 CET" duration-ms="5755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAccountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@78e117e3]" started-at="2024-03-24T21:33:58 CET" name="testAccountRegistration" finished-at="2024-03-24T21:34:01 CET" duration-ms="2930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@78e117e3]" started-at="2024-03-24T21:34:01 CET" name="teardown" finished-at="2024-03-24T21:34:01 CET" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@460d0a57]" started-at="2024-03-24T21:34:01 CET" name="setup" finished-at="2024-03-24T21:34:06 CET" duration-ms="4301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TC_002_LoginTest@460d0a57]" started-at="2024-03-24T21:34:06 CET" name="loginTest" finished-at="2024-03-24T21:34:07 CET" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_LoginTest@460d0a57]" started-at="2024-03-24T21:34:07 CET" name="teardown" finished-at="2024-03-24T21:34:08 CET" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_002_LoginTest -->
+    </test> <!-- Open Cart -->
+  </suite> <!-- Open Cart End To End Testing -->
+</testng-results>

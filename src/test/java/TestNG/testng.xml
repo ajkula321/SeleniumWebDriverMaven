@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Testing ">
+
+    <test name="Regression1">
+        <classes>
+            <class name="TestNG.FirstTest"/>
+            <class name="TestNG.SecondTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Regression2">
+        <classes>
+            <class name="TestNG.AnnotationsDemo"/>
+            <class name="TestNG.AnnotationsDemo1"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

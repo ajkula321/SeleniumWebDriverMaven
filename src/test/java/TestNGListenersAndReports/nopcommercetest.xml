@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NOP Commerce" thread-count="2" parallel="tests">
+
+    <listeners>
+        <listener class-name="TestNGListenersAndReports.ExtentReportManager"/>
+    </listeners>
+
+    <test name="NOP Commerce Test Chrome">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demo.nopcommerce.com/"/>
+        <classes>
+            <class name="TestNGListenersAndReports.NOPCommerceTest"/>
+        </classes>
+    </test>
+
+    <test name="NOP Commerce Test Edge">
+        <parameter name="browser" value="edge"/>
+        <parameter name="url" value="https://demo.nopcommerce.com/"/>
+        <classes>
+            <class name="TestNGListenersAndReports.NOPCommerceTest"/>
+        </classes>
+    </test>
+</suite>

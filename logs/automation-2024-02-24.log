@@ -1,0 +1,59 @@
+22:36:47.865 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Starting TC_001_AccountRegistrationTest ***
+22:36:47.868 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Application Logs Started
+22:36:47.931 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account
+22:36:49.003 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register
+22:36:49.268 [main] INFO  testCases.TC_001_AccountRegistrationTest - Populated User Details
+22:36:49.376 [main] INFO  testCases.TC_001_AccountRegistrationTest - Assigned Password
+22:36:50.303 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue
+22:36:50.338 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validated expected message
+22:36:50.762 [main] INFO  testCases.TC_001_AccountRegistrationTest - Proceeding after registration
+22:36:50.762 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Application Logs Finished
+22:36:50.762 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Finished TC_001_AccountRegistrationTest ***
+22:36:55.794 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest Started ***
+22:36:55.794 [main] DEBUG testCases.TC_002_LoginTest - Application Debug Logs Started
+22:36:56.287 [main] INFO  testCases.TC_002_LoginTest - Clicked My Account and Login on HomePage
+22:36:56.323 [main] INFO  testCases.TC_002_LoginTest - Landed on Login Page
+22:36:57.302 [main] INFO  testCases.TC_002_LoginTest - Parsed email and pass. Selected Login button
+22:36:57.351 [main] INFO  testCases.TC_002_LoginTest - LoginTest Passed
+22:36:57.352 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest Finished ***
+22:37:52.198 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Starting TC_001_AccountRegistrationTest ***
+22:37:52.200 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Application Logs Started
+22:37:52.270 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account
+22:37:53.473 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register
+22:37:53.743 [main] INFO  testCases.TC_001_AccountRegistrationTest - Populated User Details
+22:37:53.864 [main] INFO  testCases.TC_001_AccountRegistrationTest - Assigned Password
+22:37:54.773 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue
+22:37:54.808 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validated expected message
+22:37:55.218 [main] INFO  testCases.TC_001_AccountRegistrationTest - Proceeding after registration
+22:37:55.218 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Application Logs Finished
+22:37:55.218 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Finished TC_001_AccountRegistrationTest ***
+22:38:00.481 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest Started ***
+22:38:00.482 [main] DEBUG testCases.TC_002_LoginTest - Application Debug Logs Started
+22:38:00.964 [main] INFO  testCases.TC_002_LoginTest - Clicked My Account and Login on HomePage
+22:38:01.010 [main] INFO  testCases.TC_002_LoginTest - Landed on Login Page
+22:38:01.991 [main] INFO  testCases.TC_002_LoginTest - Parsed email and pass. Selected Login button
+22:38:22.161 [main] ERROR testCases.TC_002_LoginTest - LoginTest Failed
+22:43:12.886 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Starting TC_001_AccountRegistrationTest ***
+22:43:12.888 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Application Logs Started
+22:43:12.952 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account
+22:43:14.201 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register
+22:43:14.461 [main] INFO  testCases.TC_001_AccountRegistrationTest - Populated User Details
+22:43:14.575 [main] INFO  testCases.TC_001_AccountRegistrationTest - Assigned Password
+22:43:15.541 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue
+22:43:15.581 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validated expected message
+22:43:15.988 [main] INFO  testCases.TC_001_AccountRegistrationTest - Proceeding after registration
+22:43:15.988 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Application Logs Finished
+22:43:15.988 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Finished TC_001_AccountRegistrationTest ***
+22:43:20.886 [main] INFO  testCases.TC_002_LoginTest - *** TC_002_LoginTest Started ***
+22:43:20.887 [main] DEBUG testCases.TC_002_LoginTest - Application Debug Logs Started
+22:43:21.364 [main] INFO  testCases.TC_002_LoginTest - Clicked My Account and Login on HomePage
+22:43:21.399 [main] INFO  testCases.TC_002_LoginTest - Landed on Login Page
+22:43:31.632 [main] ERROR testCases.TC_002_LoginTest - Test Failed due to following: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value='Login#']"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afb78bd8275fa9ed66a7092aa8ab0334, findElement {using=xpath, value=//input[@value='Login#']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\InTNB072\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58243/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afb78bd8275fa9ed66a7092aa8ab0334
