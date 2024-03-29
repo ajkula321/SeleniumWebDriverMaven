@@ -8,7 +8,7 @@
     
     <test name="Open Cart">
 
-        <parameter name="os" value="mac"/>
+        <parameter name="os" value="Windows"/>
         <parameter name="browser" value="chrome"/>
 
         <groups>
